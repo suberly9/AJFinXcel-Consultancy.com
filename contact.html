@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ FinXcel Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8039355e8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" width="250px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+                <h1 style="text-align: center;">Contact Us<br></h1>
+      <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.22581645168!2d77.26208809999999!3d8.179992200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04fd55564fbfa1%3A0xb1023637a48a7c1f!2sAJ%20FinXcel%20Consultancy!5e0!3m2!1sen!2sin!4v1699351402334!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+            <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span><h5>FF Bismi Complex, Near Annasilai</h5>
+                            <p>Colachel, TamilNadu, India</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span><h5>+91 9632073969, 7871783121</h5>
+                            <p>Monday to Saturday, 9AM to 5PM</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span><h5>ajfinxcelconsultancy@gmail.com</h5>
+                            <p>Email us your query</p>
+                            </span>
+                        </div>
+                        <div class="contact-col">
+
+
+                        </div>
+                    
+                    </div>
+                </div>
+            </section>
+        
+    </div>
+    </div>
+
+
+<!------- footer ------>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Address</h3>
+                    <p>FF Bismi Complex,<br>
+                    Near AnnaSilai,<br>Colachel,<br>TamilNadu<br>629251.</p>
+                    
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-1.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure 
+                    and <br>Benefits of People Accessible to the Many.</p>
+                </div>
+                
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="https://www.instagram.com/ajfinxcel15/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            
+
+
+        </div>
+
+    </div>
+
+<!-----js for toggle menu------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{;
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
